@@ -3,7 +3,7 @@
 <suite name="Suite">
 
   <test  name="TestChrome">
-  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="browser" value="firefox"></parameter>
     <classes>
       <class name="com.vitamojo.Testcases.HomePage"/>
     </classes>
