@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 3, Time elapsed: 192.026 s <<< FAILURE! - in TestSuite
+setUpTest(com.vitamojo.Testcases.HomePage)  Time elapsed: 191.278 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '4.3.0', revision: 'a4995e2c09*'
+System info: host: 'DIL-IND-QA08', ip: '192.168.164.47', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}], desiredCapabilities=Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}}]
+	at com.vitamojo.Testcases.HomePage.setUpTest(HomePage.java:55)
+Caused by: java.lang.RuntimeException: NettyHttpHandler request execution error
+	at com.vitamojo.Testcases.HomePage.setUpTest(HomePage.java:55)
+Caused by: java.util.concurrent.ExecutionException: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:64994 after 180000 ms
+	at com.vitamojo.Testcases.HomePage.setUpTest(HomePage.java:55)
+Caused by: java.util.concurrent.TimeoutException: Request timeout to localhost/127.0.0.1:64994 after 180000 ms
+
