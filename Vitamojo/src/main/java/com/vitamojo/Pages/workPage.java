@@ -89,7 +89,7 @@ public class workPage extends HomePage {
 		System.out.println(URL1);
 		
 		if(URL1.equalsIgnoreCase("https://careers.vitamojo.com/")) {
-			System.out.println("Landed on Carrer Page");
+			System.out.println("Landed on Carrer Page successfully");
 		}
 		else{
 			System.out.println("Landed on incorrect page");
