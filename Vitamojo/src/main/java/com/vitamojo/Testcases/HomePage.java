@@ -65,7 +65,7 @@ public class HomePage {
 		driver.get(GlobalVariable.URL);
 		workPage work =new workPage(driver);
 		work.navigatCareerPage();
-		test.log(Status.PASS, "Navigated to Home Page successfully");
+		test.log(Status.PASS, "Navigated and landed on Home Page successfully");
 		work.VerifyDestinationURL();
 		test.log(Status.PASS, "Navigated to Carrer page and URL the opened successfully yepppiee");
 		work.navigateCarrerSection();
