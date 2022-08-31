@@ -1,0 +1,4 @@
+The test can be run from ExtentReportTestNG.java file
+In GlobalVariable.java all global level variables are declared.
+In workPage.java all xpaths and methods are written.
+The project generate the reports as well (ExtentReport_Amazon.html ).
