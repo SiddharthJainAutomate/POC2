@@ -66,7 +66,7 @@ public class HomePage {
 		//work.navigatCareerPage();
 		test.log(Status.PASS, "Navigated and landed on Home Page successfully");
 		work.VerifyDestinationURL();
-		test.log(Status.PASS, "Navigated to Carrer page and URL verified successfully");
+		test.log(Status.PASS, "Navigated to Carrer page and URL the  verified successfully");
 		work.navigateCarrerSection();
 		test.log(Status.PASS, "Landed on my Dream Job");	
 	}
