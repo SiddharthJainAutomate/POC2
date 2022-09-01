@@ -60,7 +60,7 @@ public class HomePage {
 	 
 	@Test
 	public void test1() throws IOException {
-		ExtentTest test = extent.createTest("Vita Mojo POC on", "Contact Page verification");
+		ExtentTest test = extent.createTest("Vita Mojo POC on", "Carrer Page verification");
         driver.manage().window().maximize();
 		driver.get(GlobalVariable.URL);
 		workPage work =new workPage(driver);
