@@ -46,7 +46,6 @@ public class HomePage {
 			System.setProperty("webdriver.chrome.driver", GlobalVariable.driverPath);
 		    driver =new ChromeDriver();
 	        driver.manage().window().maximize();
-			driver.get(GlobalVariable.URL);
 			driver.get("https://careers.vitamojo.com/");
 		   
 		}
@@ -62,9 +61,9 @@ public class HomePage {
 	public void test1() throws IOException {
 		ExtentTest test = extent.createTest("Vita Mojo POC on", "Carrer Page verification");
         driver.manage().window().maximize();
-		driver.get(GlobalVariable.URL);
+		//driver.get(GlobalVariable.URL);
 		workPage work =new workPage(driver);
-		work.navigatCareerPage();
+		//work.navigatCareerPage();
 		test.log(Status.PASS, "Navigated and landed on Home Page successfully");
 		work.VerifyDestinationURL();
 		test.log(Status.PASS, "Navigated to Carrer page and URL the opened successfully yepppiee");

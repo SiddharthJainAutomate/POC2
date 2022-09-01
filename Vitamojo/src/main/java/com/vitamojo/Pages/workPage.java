@@ -43,6 +43,8 @@ public class workPage extends HomePage {
 	By Acceptall = By.xpath("//*[text()='Accept all']");
 	By Jobopening = By.xpath("//*[text()='Job openings']");
 	By QAautomation = By.xpath("//*[text()='QA Automation Architect']");
+	By QAautomationImage = By.xpath("//img[@alt='QA Automation Architect image']");
+	
 	
 	
 	
@@ -68,6 +70,17 @@ public class workPage extends HomePage {
 			driver.findElement(Acceptall).click();
 		}
 		driver.findElement(Jobopening).click();
+		
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		
+		
+		WebElement l = driver.findElement(QAautomation);
+		((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", l);
 		try {
 			Thread.sleep(3000);
 		} catch (InterruptedException e) {

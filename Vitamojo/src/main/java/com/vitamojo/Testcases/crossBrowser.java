@@ -34,7 +34,7 @@ public class crossBrowser {
 		 
 
         driver.manage().window().maximize();
-		driver.get(GlobalVariable.URL);
+		driver.get(GlobalVariable.carrierpageURL);
 		
 	}
 	
