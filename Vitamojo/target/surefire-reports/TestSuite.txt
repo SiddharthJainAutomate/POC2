@@ -1,15 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 14.023 s <<< FAILURE! - in TestSuite
-test1(com.vitamojo.Testcases.HomePage)  Time elapsed: 2.169 s  <<< FAILURE!
-org.openqa.selenium.WebDriverException: 
-Reached error page: about:neterror?e=nssFailure2&u=https%3A//www.vitamojo.com/&c=UTF-8&d=%20
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'DIL-IND-QA08', ip: '192.168.164.47', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [84c80f40-e31d-46c1-9091-7b9a608c979d, get {url=https://www.vitamojo.com/}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.1, moz:accessibilityChecks: false, moz:buildID: 20220829141339, moz:debuggerAddress: localhost:63481, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 17396, moz:profile: C:\Users\SIDDHA~1\AppData\L..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:63481/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 84c80f40-e31d-46c1-9091-7b9a608c979d
-	at com.vitamojo.Testcases.HomePage.test1(HomePage.java:65)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 26.029 s - in TestSuite

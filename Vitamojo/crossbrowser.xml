@@ -5,14 +5,14 @@
    <test name="TestChrome" >
     <parameter name="browser" value="chrome"></parameter>
     <classes>
-      <class name="com.vitamojo.Testcases.crossBrowser"/>
+      <class name="com.salesHandy.Testcases.TestCase1"/>
     </classes>
   </test> 
   
    <test  name="TestFirefox">
     <parameter name="browser" value="firefox"></parameter>
     <classes>
-      <class name="com.vitamojo.Testcases.crossBrowser"/>
+      <class name="com.salesHandy.Testcases.TestCase1"/>
     </classes>
   </test> 
   

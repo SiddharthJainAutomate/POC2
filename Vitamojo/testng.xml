@@ -5,7 +5,7 @@
   <test  name="TestChrome">
   <parameter name="browser" value="firefox"></parameter>
     <classes>
-      <class name="com.vitamojo.Testcases.HomePage"/>
+      <class name="com.salesHandy.Testcases.TestCase1"/>
     </classes>
   </test> 
 
